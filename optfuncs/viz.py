@@ -4,6 +4,7 @@ Helper functions for visualization
 
 import numpy as np
 from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 
 def handle_fig_and_ax(fig, subplot_pos, projection=None):
